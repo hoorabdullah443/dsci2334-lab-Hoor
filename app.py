@@ -9,7 +9,7 @@ st.write("Explore how test scores and CGPA relate to the chance of admission.")
 
 @st.cache_data
 def load_data():
-    df = pd.read_csv("Admission_Predict_Ver1.1.csv")
+    df = pd.read_csv("Admission_Predict_Ver1.1 (1).csv")
     df.columns = df.columns.str.strip()  # some column names end with a space
     return df
 
